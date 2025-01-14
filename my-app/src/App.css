@@ -1,0 +1,48 @@
+
+body {
+	background-color: #918b97;
+	height: 100%;
+}
+
+.App {
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.inputSearch {
+	position: relative;
+	height: 25px;
+	width: 200px;
+	margin-top: 25px;
+	background: url('./icon-search.svg') no-repeat 2px 3px white;
+	padding-left: 25px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.buttons {
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+}
+
+.button {
+	margin: 10px 0 10px 5px;
+	background: #3d3939;
+	color: white;
+	padding: 0.8em 1.3em;
+	border-radius: 5px;
+}
+
+.btn {
+	margin: 15px 0 0 20px;
+	background: #3d3939;
+	color: white;
+	padding: 0.8em 1.3em;
+	border-radius: 5px;
+}
+
+ul {
+	list-style: none;
+}
